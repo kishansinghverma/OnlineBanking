@@ -1,0 +1,3 @@
+Refer to attached pdf for info.
+
+Requires Netbeans and mysql database.

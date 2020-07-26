@@ -1,0 +1,60 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 5 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>New Account</title>
+<link href="resources/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <table border="0">
+        <tr>
+            <td class="c1">
+                <div><img src="resources/Bank.png" width="150" height="150" alt="Bank"/></div>
+                <div><font style="font-size: 38px; font-weight: bolder;">Apna Bank</font></div>
+                <div align="right"><font style="font-size: 18px; font-style: italic; font-weight: bolder;">ExtraOrdinary Service</font></div>
+                <br><br><br><br>
+                <div class="link">&raquo; Online Services</div>
+                <div class="hrblock"><hr></div>
+                <div class="link">&raquo; Products/ Mobile app Info</div>
+                <div class="hrblock"><hr></div>
+                <div class="link">&raquo; Grievance Redressal / Services</div>
+                <div class="hrblock"><hr></div>
+                <div class="link">&raquo; Security / Safety</div>
+                <div class="hrblock"><hr></div>
+            </td>
+            <td class="c2">
+                <div class="block1">
+                    <div class="inf1">Customer Support</div>
+                    <div class="btn">
+                        <a href="AccountForm.html"><button>New User?</button></a>&emsp;
+                        <a href="LoginForm.jsp"><button>Login to NetBanking</button></a>
+                    </div>
+                    <div class="inf2">1800-180-0000</div>
+                </div>
+                <div class="wrap">
+                    <div class="heading1"><br>Registration  For NetBanking</div><br>
+                    <div class="form">
+                        <form action="CreateAccount.jsp" method="post" autocomplete="off">
+                        <input type="text" name="fname" placeholder="First Name" maxlength="20" style="width: 175px" required>
+                        <input type="text" name="lname" placeholder="Last Name" maxlength="20" style="width: 175px" required>
+                        <input type="password" name="password" placeholder="Password" id="password" maxlength="40" required pattern=".{6,}" title="Six Or More Characters Required!">
+                        <input type="password" name="repass" placeholder="Verify Password" maxlength="40" id="confirm_password">
+                        <input type="text" name="amount" placeholder="Amount" style="width: 175px;" id="amount" maxlength="10"  pattern="^\d{1,}" title="Input Valid Amount!" required>
+                        <input type="text" name="phone" placeholder="Mobile Number" style="width: 175px;" pattern="^\d{10}" title="Invalid Mobile Number" maxlength="10" required>
+                        <input type="text" name="address" placeholder="Address" maxlength="60"  required>
+                        <input type="email" name="email" placeholder="Email" maxlength="45"  required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$">
+                        <input type="submit" value="Submit Registration Form">
+                    </form>
+                    </div>    
+                </div>
+            </td>
+        </tr>
+    </table>
+    <div class="block2">
+        <div class="foot">Apna Bank never sends email for getting customer information. Please report immediately to nearest branch if you receive any e-mail purported to be originated by Apna Bank to gather your UserID or Password or any other personal information. Our Bank does not ask for the details of your account/PIN/password. Therefore any one pretending to be asking you for information from the bank may be fraudulent entities, so please beware. You should know how to operate net transactions and if you are not familiar you may refrain from doing so.</div>
+    </div>
+    <script type="text/javascript" src="resources/formvalidate.js"></script>
+</body>
+</html>

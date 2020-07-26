@@ -1,0 +1,333 @@
+body {
+    font-family: Verdana,sans-serif;
+    margin: 0px;
+    max-height: 600px;
+    position:absolute;
+    width: 100%;
+    background: url(bg.jpg)
+    }
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+    position:absolute;
+    top: 69px;
+    width: 100%
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.link
+{
+    font-size: 20px;
+    font-family: 'Candara';
+    font-weight: bold; 
+    color: rgba(24, 123, 112, 1);
+}
+hr
+{
+    border-top: 1px solid #ccc;
+}
+.hrblock
+{
+    padding-top: 3px; 
+    padding-bottom: 3px;
+}
+button
+{
+    background-color: transparent; 
+    color: white; 
+    border-radius: 5px; 
+    border: 2px solid white; 
+    padding: 8px 12px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px;
+}
+table
+{
+   width: 100%; 
+   position: relative;
+   top: -2px;
+   right: -2px;
+}
+.c1
+{
+   width: 26%; 
+   padding-left: 40px; 
+   padding-right: 40px; 
+   position: relative; 
+}
+.dot{}
+.c2
+{
+    position: relative;
+}
+.block1
+{
+    width: 1007px;
+    height: 70px; 
+    background: rgba(24, 123, 112, 0.6); 
+    top: 0px; 
+    position: absolute;
+}
+.foot
+{
+    color: whitesmoke; 
+    font-size: 13px; 
+    text-align: justify
+}
+.block2
+{
+    width: 93%; 
+    height: 100px; 
+    background: rgba(21, 26, 10, 0.6); 
+    position: fixed; 
+    top: 573px; 
+    padding-top: 20px; 
+    padding-left: 50px; 
+    padding-right: 50px;
+}
+.inf1, .inf2
+{
+     color: white; 
+     font-family: 'Trebuchet MS';
+     
+}
+.inf1
+{
+    padding-top: 10px; 
+    font-size: 25px; 
+    padding-left: 25px;
+}
+.inf2
+{
+    font-size: 18px; 
+    padding-left: 65px;
+}
+.btn
+{
+    right:25px; 
+    position: absolute; 
+    top:16px;
+}
+.wrap
+{
+    position: fixed; 
+    height: 503px; 
+    width: 1007px;  
+    background: rgba(3, 3, 78, 0.5); 
+    top: 70px; 
+    display: inline-block;
+    text-align: center;
+}
+input[type=text]{
+    width: 400px;
+    padding: 12px 20px;
+    margin: 5px 0;
+    border-radius: 5px;
+    background-color: whitesmoke; 
+    color: darkslategray; 
+    border: 2px solid rgba(24, 123, 112, 0.6); 
+    font-size: 16px;
+    font-style: italic;
+    font-family: 'georgia';
+}
+
+input[type=submit] {
+    width: 444px;
+    padding: 12px 20px;
+    margin: 5px 0;
+    border-radius: 5px;
+    background-color: #e3e2e2; 
+    color: darkslategray;  
+    border: 2px solid rgba(24, 123, 112, 0.6); 
+    font-size: 16px;
+    font-style: italic;
+    font-family: 'georgia';
+}
+
+input[type=submit]:hover {
+    background-color: #d8d3d3
+}
+.form
+{
+    width: 450px;
+    display: inline-block;
+    text-align: center;
+}
+input[type=password]{
+    width: 400px;
+    padding: 12px 20px;
+    margin: 5px 0;
+    border-radius: 5px;
+    background-color: whitesmoke; 
+    color: darkslategray; 
+    border: 2px solid rgba(24, 123, 112, 0.6); 
+    font-size: 16px;
+    font-style: italic;
+    font-family: 'georgia';
+}
+input[type=email]{
+    width: 400px;
+    padding: 12px 20px;
+    margin: 5px 0;
+    border-radius: 5px;
+    background-color: whitesmoke; 
+    color: darkslategray; 
+    border: 2px solid rgba(24, 123, 112, 0.6); 
+    font-size: 16px;
+    font-style: italic;
+    font-family: 'georgia';
+}
+.heading1
+{
+    color: white; font-size: 25px; font-family: 'georgia'; font-style: italic;
+}
+.hrl
+{
+    margin: 5px; margin-top: 10px; margin-bottom: 10px; border-top-color: #ccc; border-bottom-color: transparent; border-left-color: transparent; border-right-color: transparent; border-radius: 2px;
+}
+    .out
+{
+    margin: 10px; color: whitesmoke; font-family: 'georgia'; font-size: 20px; font-style: italic;
+}
+.msgout
+{
+color: #fcede6; font-style: italic; font-family: 'georgia'; font-size: 16px; margin: 5px;
+}
+.form1
+{
+    width: 500px;
+    display: inline-block;
+    text-align: left;
+    color: whitesmoke;
+    font-family: 'georgia';
+    font-size: 20px;
+    font-style: italic;
+    left: 322px;
+    position: absolute;
+}
+.menu
+{
+    width: 1007px;  
+    background: rgba(0, 0, 0, 0.4);
+    position: static;
+    padding: 8px;
+    font-family: 'georgia';
+    font-size: 20px;  
+    color: white;
+    font-style: italic;
+    text-align: center;
+    
+}
+.am:link, .am:visited {
+    color: white; 
+    text-decoration: none;
+}
+
+.am:hover, .am:active {
+    color: #ccc;
+    text-decoration: none;
+}
+.am:active
+{
+    color: #999999;
+    text-decoration: none;
+}
+.out1
+{
+    margin-top: 20px; color: whitesmoke; font-family: 'georgia'; font-size: 20px; font-style: italic;
+}
+
+input[type=text].d
+{
+    width: 100px;
+    border-radius: 2px;
+    background-color: whitesmoke; 
+    color: darkslategray; 
+    border: 1px solid rgba(24, 123, 112, 0.6); 
+    font-size: 15px;
+    font-style: italic;
+    font-family: 'georgia';
+    padding: 6px;
+    margin: 0px;
+}
+input[type=submit].d
+{
+    width: 100px;
+    border-radius: 2px;
+    background-color: whitesmoke; 
+    color: darkslategray; 
+    border: 1px solid rgba(24, 123, 112, 0.6); 
+    font-size: 15px;
+    font-style: italic;
+    font-family: 'georgia';
+    padding: 6px;
+    margin: 0px;
+}
+.edit
+{
+    background-color: transparent; 
+    color: white; 
+    border-radius: 0px; 
+    border: none; 
+    padding: 0px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px;
+    bottom: -5px;
+    position: relative;
+}
+.formx
+{
+    width: 800px;
+    display: inline-block;
+    text-align: left;
+    color: whitesmoke;
+    font-family: 'georgia';
+    font-size: 20px;
+    font-style: italic;
+    right:50px;
+    position: absolute;
+    
+}
+td.tab
+{
+    height: 32px;
+    width: 400px;
+    
+}
+input[type=mail].d
+{
+    width: 100px;
+    border-radius: 2px;
+    background-color: whitesmoke; 
+    color: darkslategray; 
+    border: 1px solid rgba(24, 123, 112, 0.6); 
+    font-size: 15px;
+    font-style: italic;
+    font-family: 'georgia';
+    padding: 6px;
+    margin: 0px;
+}
